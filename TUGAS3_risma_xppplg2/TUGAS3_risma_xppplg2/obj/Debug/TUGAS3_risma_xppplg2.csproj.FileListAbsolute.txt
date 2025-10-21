@@ -1,0 +1,7 @@
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\bin\Debug\TUGAS3_risma_xppplg2.exe.config
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\bin\Debug\TUGAS3_risma_xppplg2.exe
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\bin\Debug\TUGAS3_risma_xppplg2.pdb
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\obj\Debug\TUGAS3_risma_xppplg2.csproj.AssemblyReference.cache
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\obj\Debug\TUGAS3_risma_xppplg2.csproj.CoreCompileInputs.cache
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\obj\Debug\TUGAS3_risma_xppplg2.exe
+D:\Risma apriliana_XPPLG2\TUGAS3_risma_xppplg2\TUGAS3_risma_xppplg2\obj\Debug\TUGAS3_risma_xppplg2.pdb
