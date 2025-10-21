@@ -1,0 +1,7 @@
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\bin\Debug\Praktik6.1 Risma Xpplg2.exe.config
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\bin\Debug\Praktik6.1 Risma Xpplg2.exe
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\bin\Debug\Praktik6.1 Risma Xpplg2.pdb
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\obj\Debug\Praktik6.1 Risma Xpplg2.csproj.AssemblyReference.cache
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\obj\Debug\Praktik6.1 Risma Xpplg2.csproj.CoreCompileInputs.cache
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\obj\Debug\Praktik6.1 Risma Xpplg2.exe
+D:\Risma apriliana_XPPLG2\Praktik6.1 Risma Xpplg2\Praktik6.1 Risma Xpplg2\obj\Debug\Praktik6.1 Risma Xpplg2.pdb
