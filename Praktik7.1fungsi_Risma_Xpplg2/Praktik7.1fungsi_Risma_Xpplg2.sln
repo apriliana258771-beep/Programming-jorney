@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktik7.1fungsi_Risma_Xpplg2", "Praktik7.1fungsi_Risma_Xpplg2\Praktik7.1fungsi_Risma_Xpplg2.csproj", "{2D1E3A31-419D-4A5E-A853-0049A28016ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D1E3A31-419D-4A5E-A853-0049A28016ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1E3A31-419D-4A5E-A853-0049A28016ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1E3A31-419D-4A5E-A853-0049A28016ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1E3A31-419D-4A5E-A853-0049A28016ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BF064FC-99D8-4D47-BFA6-B200B82C18E0}
+	EndGlobalSection
+EndGlobal
