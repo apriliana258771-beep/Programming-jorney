@@ -1,0 +1,7 @@
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\bin\Debug\Praktik7.3fungsi_risma_xpplg2.exe.config
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\bin\Debug\Praktik7.3fungsi_risma_xpplg2.exe
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\bin\Debug\Praktik7.3fungsi_risma_xpplg2.pdb
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\obj\Debug\Praktik7.3fungsi_risma_xpplg2.csproj.AssemblyReference.cache
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\obj\Debug\Praktik7.3fungsi_risma_xpplg2.csproj.CoreCompileInputs.cache
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\obj\Debug\Praktik7.3fungsi_risma_xpplg2.exe
+D:\Risma apriliana_XPPLG2\Praktik7.3fungsi_risma_xpplg2\Praktik7.3fungsi_risma_xpplg2\obj\Debug\Praktik7.3fungsi_risma_xpplg2.pdb
