@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir pendaftaran calon siswa</title>
+</head>
+<body>
+<h2>FORMULIR PENDAFTARAN CALON SISWA BARU SMK</h2>
+<form action="/submit" method="post">
+<fieldset>
+<legend>BIODATA SISWA</legend>
+<table>
+<tr>
+<td>No.UN SMP/MTS/Sederajat</td>
+<td><input type="text" name="No.UN_SMP/Mts/Sederajat" required></td>
+</tr>
+<tr>
+<td>Nama Lengkap</td>
+<td><input type="text" name="nama_lengkap" required></td>
+</tr>
+<tr>
+<td>Jenis Kelamin</td>
+<td>
+<input type="radio" id="option1" name="jk"> Laki-Laki 
+<br>
+<input type="radio" id="option2" name="jk"> Perempuan
+</td>
+</tr>
+<tr>
+<td>Nama Orangtua/Wali</td>
+<td><input type="text" name="Nama_orangtua/wali" required></td>
+</tr>
+<tr>
+<td>Alamat sesuaiKK/KTP/SuratKet
+<br>(Domisilmin.6 bln Ortu/Walimurid 
+<br>calon siswa)</td>
+
+<td><textarea id="alamat" name="alamat"></textarea></td>
+</tr>
+<tr>
+<td>Kota/Kabupaten</td>
+<td><input type="text" name="Kota_kabupaten" required></td>
+</tr>
+<tr>
+<td>Asal Sekolah</td>
+<td><input type="text" name="asal_sekolah" required></td>
+</tr>
+
+<tr>
+<td>Agama</td>
+<td>
+<select id="Agama" name="Agama">
+<option value="agm">Islam</option>
+<option value="agm">Kristen</option>
+<option value="agm">Khatolik</option>
+<option value="agm">Hindu</option>
+<option value="agm">Konghucu</option>
+<option value="agm">Budha</option>
+</select>
+</td>
+</tr>
+</table>
+</fieldset>
+<br>
+<fieldset>
+<legend>PENILAIAN</legend>
+<table>
+<td>NILAI UJIAN NASIONAL (NUN)</td>
+<tr>
+<td>1. Matematika</td>
+<td><input type="number" name="mtk" required style="width: 120px; margin-right:auto;"></td>
+</tr>
+<tr>
+<td>2. Bahasa Indonesia</td>
+<td><input type="number" name="b_indo" required style="width: 120px; margin-right:auto;"></td>
+</tr>
+<tr>
+<td>3. Bahasa Inggris</td>
+<td><input type="number" name="b_ing" required style="width: 120px; margin-right:auto;"></td>
+<tr>
+<td>4. Ilmu Pengetahuan Alam (IPA)</td>
+<td><input type="number" name="ipa" required style="width: 120px; margin-right:auto;"></td>
+<td>Jumlah NUN</td>
+<td><input type="number" name="jml_nun" required style="width: 120px; margin-right:auto;"></td>
+</tr>
+<tr>
+<td>NILAI BONUS PRESTASI (NBP)</td>
+<td></td>
+<td></td>
+<td><input type="number" name="nila_bonus" required style="width: 120px; margin-right: auto;"></td>
+</tr>
+<tr>
+<td>JUMLAH TOTAL NILAI AKHIR PPDB  ( Rumus : NUN + NBP )</td>
+<td></td>
+<td></td>
+<td><input type="number" name="jml" required style="width: 120px; margin-right: auto;"></td>
+</tr>
+</table>
+</fieldset>
+<br>
+
+<fieldset>
+<legend>PENILAIAN SEKOLAH</legend>
+<table>
+<tr>
+<td>1. SMK</td>
+<td>
+<input list="daftar_smk" name="smkn1" style="width:180px;">
+<datalist id="daftar_smk">
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;a. Pilihan 1</td>
+<td>
+<select id="pil1" name="pil1" style="width:189px;">
+<option value=""></option>
+<option value="Rpl">RPL</option>
+<option value="TAV">TAV/option>
+<option value="TM">TM</option>
+<option value="TKL">TKL</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;b. Pilihan 2</td>
+<td>
+<select id="pil2" name="pil2" style="width:189px;">
+<option value=""></option>
+<option value="Rpl">RPL</option>
+<option value="TAV">TAV/option>
+<option value="TM">TM</option>
+<option value="TKL">TKL</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>2. SMK</td>
+<td>
+<input list="daftar_smk" name="smkn1" style="width:180px;">
+<datalist id="daftar_smk">
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;a. Pilihan 1</td>
+<td>
+<select id="pil1" name="pil1" style="width:189px;">
+<option value=""></option>
+<option value="Rpl">RPL</option>
+<option value="TAV">TAV/option>
+<option value="TM">TM</option>
+<option value="TKL">TKL</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;b. Pilihan 2</td>
+<td>
+<select id="pil2" name="pil2" style="width:189px;">
+<option value=""></option>
+<option value="Rpl">RPL</option>
+<option value="TAV">TAV/option>
+<option value="TM">TM</option>
+<option value="TKL">TKL</option>
+</select>
+</td>
+</tr>
+
+</datalist>
+</td>
+</tr>
+</table>
+</fieldset>
+</fieldset>
+<input type="submit" value="Daftar">
+</form>
+</body>
+</html>
