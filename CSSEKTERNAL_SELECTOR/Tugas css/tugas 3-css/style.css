@@ -1,0 +1,22 @@
+/* Styles for the external CSS file */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color:aqua;
+    text-align: center;
+    margin-top: 30px;
+}
+h2 {
+    color:azure;
+    text-align: center;
+    margin-top: 30px;
+}
+p {
+    color:blue;
+    line-height: 1.7;
+    padding: 0 30px;
+}

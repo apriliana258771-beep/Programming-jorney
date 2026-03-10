@@ -1,0 +1,20 @@
+.h {
+    display: block;
+    background-color: #7dabff;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.inline {
+    display: inline-block;
+    background-color: #f2f2f7;
+    margin: 5px;
+    padding: 10px
+}
+.tabel {
+    display: block;
+    background-color: #5576b4;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}

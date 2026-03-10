@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Box Model</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma,Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #555879;
+        }
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(216, 213, 213);
+            .profile {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+                border: 6px solid #98A1BC;
+            }
+            .profile img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        article {
+            border: 5px solid #98A1BC;
+            border-radius: 0.8em;
+            padding: 1em;
+            margin-bottom: 1em;
+            background-color: white;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+        .action-buttons {
+            margin-top: 1.5em;
+        }
+        .action-buttons button {
+            display: inline;
+            margin-right: 1em;
+            padding: 0.5em 1em;
+            border-radius: 0.8em;
+            border: 1px solid silver;
+        }
+        footer {
+            font-size: small;
+            margin-top: 6em;
+            text-align: center;
+            color:  rgb(216, 213, 213);
+        }
+        .skill {
+            border: 5px solid #98A1BC;
+            padding: 1em;
+            background-color: white;
+            margin-bottom: 1em;
+            width: 100%;
+            text-align: justify;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profil Saya</h1>
+        <p>Foto saya</p>
+        
+    <div class="profile">
+        <img src="syluspofil.jpg" alt="jpg" width="150" height="150">
+    </div>
+    </header>
+
+    <article>
+        <p>Halo! Saya merupakan siswa SMK Negeri 1 Kandeman dari jurusan Pengembangan Perangkat Lunak dan Gim (PPLG).
+            Saya memiliki minat di bidang teknologi dan pembuatan aplikasi.
+            Di waktu luang, saya hobi main game dan mebaca novel atau komik.
+        </p>
+    
+    <div class="action-buttons">
+        <button>&#x1F5A4 Like</button>
+        <button>&#x1F324 Comment</button>
+        <button>&#x1F5E3 Share</button>
+    </div>
+    </article>
+
+    <article>
+        <p>Di jurusan ini, Saya telah mempelajari HTML dan CSS untuk membuat tampilan website yang menarik.
+            Saya juga sudah bisa membuat halaman web sederhana dan terus berlatih agar kemampuan 
+            coding saya semakin berkembang.
+        </p>
+    
+    <div class="action-buttons">
+        <button>&#x1F5A4 Like</button>
+        <button>&#x1F324 Comment</button>
+        <button>&#x1F5E3 Share</button>
+    </div>
+    </article>
+    
+    <table class="skill" width="100%">
+
+        <tr>
+            <th>Skill</th>
+            <th>Pengalaman</th>
+        </tr>
+        <td>
+            <ul>
+            <li>HTML (Expert)</li>
+                <li>CSS (Beginner)</li>
+                <li>JavaScript (Beginner)</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>nyuci hp</li>
+                <li>nyuci laptop</li>
+                <li>nyuci piring
+            </ul>
+        </td>
+    </table>
+
+    <footer>
+        Copyright &copy; X PPLG
+    </footer>
+
+</body>
+</html>
