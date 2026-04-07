@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: rgb(128, 4, 4);
+    ;
+    color: #fedc00;
+    padding: 2px;
+    text-align: center;
+}
+
+nav {
+    background-color: #b10a0a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.produk {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    background: gray;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.produk img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #c20101;
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c20101;
+}
+
+footer {
+    background-color:#890404;
+    color:rgb(255, 230, 0); ;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.produk:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
