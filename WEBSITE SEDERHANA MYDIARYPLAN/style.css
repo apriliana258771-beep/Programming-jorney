@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i1-e.pinimg.com/webp85/1200x/b9/e1/59/b9e1593d260da4a1bc9b5ae7319b51fb.webp')no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #427AB5;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #C4E2F5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #9CCFFF;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #574fd6;
+}
+
+.back-button {
+    margin-bottom: 15px;
+    padding: 8px 12px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #574fd6;
+}
+
+.card {
+    border: 1px solid #01aeff;
+    border-radius: 12px;
+    padding: 20px;
+    background: #C4E2F5;
+    cursor: pointer;
+    box-shadow: 0 8px 20px #CFECF3;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 24px #9CCFFF;
+}
+
+.delete-button,
+#kosongkanRiwayat {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background: #8CC0EB;
+    color: #2a5b82;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.delete-button:hover,
+#kosongkanRiwayat:hover {
+    background: #C4E2F5;
+}
+
+#kosongkanRiwayat {
+    margin-left: 0;
+}
+
+#riwayatTitle {
+    cursor: pointer;
+    user-select: none;
+}
+
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.calendar {
+    margin-top: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar-header button {
+    width: 40px;
+    padding: 8px 0;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.calendar-header button:hover {
+    background: #574fd6;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+}
+
+.calendar-weekday,
+.calendar-day,
+.day-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    border-radius: 8px;
+}
+
+.calendar-weekday {
+    font-weight: bold;
+    color: #2C5EAD;
+}
+
+.calendar-day,
+.day-empty {
+    background: #f4f4f9;
+}
+
+.calendar-day {
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.calendar-day:hover {
+    background: #767F9E;
+}
+
+.calendar-day.today {
+    border: 2px solid #427AB5;
+}
+
+.calendar-day.selected {
+    background: #427AB5;
+    color: white;
+}
+
+.note {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+}
+
+.notification-banner {
+    padding: 12px 15px;
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 10px;
+    color: #856404;
+    margin-top: 10px;
+}
+
+.notification-log {
+    margin-top: 10px;
+}
+
+.notification-log .entry {
+    background: #eef6ff;
+    border-left: 4px solid #0995eb;
+}
+
+input[type="text"],
+input[type="time"],
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.entry {
+    background: #f9f9ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.history-entry {
+    border-left: 4px solid #0995eb;
+}
+
+.empty-state {
+    color: #555;
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+.history-container {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #427AB5;
+    color: white;
+    margin-top: 200px;
+}

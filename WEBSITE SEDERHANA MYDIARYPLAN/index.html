@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>MYDIARYPLAN</h1>
+</header>
+
+<div class="main-screen container" id="mainScreen">
+    <h2>Selamat Datang!</h2>
+    <p>“Supaya harimu menyenangkan, pilih fitur yang kamu butuhkan di bawah ini.”</p>
+    <div class="card-row">
+        <div class="card" onclick="bukaDiary()">
+            <h3>MyDiary</h3>
+            <p>Buka catatan harianmu.</p>
+        </div>
+        <div class="card" onclick="bukaAgenda()">
+            <h3>MyAgenda</h3>
+            <p>Susun agenda harianmu di sini.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="diary-screen container" id="diaryScreen" style="display: none;">
+    <button class="back-button" onclick="kembaliKeUtama()">← Kembali</button>
+    <h2>MyDiary</h2>
+    <h3>Tulis Hari Ini</h3>
+    <textarea id="diaryInput" placeholder="Tulis cerita harimu..."></textarea>
+    <button onclick="simpanDiary()">Simpan</button>
+
+    <h3>Catatan</h3>
+    <div id="daftarDiary"></div>
+
+    <h3 id="riwayatTitle" onclick="toggleRiwayat()">Riwayat Hapusan ▼</h3>
+    <div id="riwayatHapus" class="history-container"></div>
+    <button id="kosongkanRiwayat" onclick="kosongkanRiwayat()">Kosongkan Riwayat</button>
+</div>
+
+<div class="schedule-screen container" id="scheduleScreen" style="display: none;">
+    <button class="back-button" onclick="kembaliKeUtama()">← Kembali</button>
+    <h2>Agenda</h2>
+    <p class="note">Klik tanggal di kalender untuk memilih agenda.</p>
+
+    <div class="calendar">
+        <div class="calendar-header">
+            <button type="button" onclick="ubahBulan(-1)">‹</button>
+            <span id="calendarMonth"></span>
+            <button type="button" onclick="ubahBulan(1)">›</button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+    </div>
+
+    <h3>Buat Agenda Baru</h3>
+    <p>Pilih tanggal: <strong id="selectedDateLabel"></strong></p>
+    <input type="hidden" id="agendaTanggal">
+    <input type="text" id="agendaJudul" placeholder="Judul agenda">
+    <input type="time" id="agendaWaktu">
+    <textarea id="agendaDeskripsi" placeholder="Deskripsi (opsional)"></textarea>
+    <button onclick="simpanAgenda()">Tambah Agenda</button>
+
+    <h3>Agenda Mendatang</h3>
+    <div id="daftarAgenda"></div>
+
+    <h3>Notifikasi Agenda</h3>
+    <div id="notificationBanner" class="notification-banner" style="display:none;"></div>
+    <div id="notificationLog" class="notification-log"></div>
+</div>
+
+<footer>
+    <p>&copy; 2026 MyDiaryPlan | Mulai ceritakan hari-harimu sekarang</p>    
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>>
